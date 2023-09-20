@@ -13,11 +13,102 @@ Resultado quiz python:
 
 ![QUIZ](punto1.png)
 
-### Punto 2:
-### Punto 3:
-### Punto 4:
-### Punto 5:
-### Punto 6:
+### Punto 2: Nuestro primer hackeo
+
+Se le pide al usuario que ingrese los numeros que desea colocar, y establecer un codigo if en el que busque cual de los números reales es mayor
+```
+a=float(input("Ingresa tu primer número: "))
+b=float(input("Ingresa tu segundo número: "))
+c=float(input("Ingresa tu tercer número: "))
+
+#Es necesario que no sean iguales, por eso utilizaremos el simbolo !
+
+if a!=b and a!=b and b!=c:
+    if a>b:
+        if a>c:
+            print("El numero mayor es:",a)
+        else:
+            print ("El número mayor es: ",c)
+    else:
+        if b>c:
+            print("El número mayor es: ",b)
+        else:
+            print("El número mayor es: ",c)
+else:
+    print("Ingrese otros 3 números porque F, no se puede saber cual es mayor a cual xd")
+```
+### Punto 3: De momento esta muy facil =)
+
+Se le pide al usuario que ingrese un número entero y si su residuo al dividirlo entre 2 es 0, es par, y si da 1 es un número impar.
+
+```
+print("vamo a ve si el número que proporcionas es par o impar >:)")
+n=int(input("Ingresa el numero que quieras >:)))) : "))
+
+if n % 2 ==0:
+    print("Pillado, ese numerito como que es par >:)")
+else:
+    print("Suave, tu número es impar xd")
+
+```
+
+### Punto 4: En proceso, aun no hay sufrimiento
+
+Se le pide al usuario que ingrese los números que desee, y establecer un condicional if en el que si el residuo de la división del numero a entre el número b es 0, a si es multiplo de b, y en caso tal que no de 0, no lo sera.
+
+```
+print("Vamo a ve si los números que coloques son multiplos uno del otro")
+
+a=int(input("Coloca un primer número: "))
+b=int(input("Coloca un segundo número: "))
+
+if a % b == 0:
+    print(f"{a} Es multiplo de {b}")
+
+else:
+    print(f"{a} NO es multiplo de {b}")
+```
+
+## PUNTO 5: Ya comienza la bueno
+
+Realice un programa que lea tres números reales y determine si la suma de los dos primeros es mayor, menor o igual que el tercer número.
+
+Se le pide al usuario que ingrese los 3 números que desee, y si establece un codigo if else, que estbalezca si la suma de los dos primeros es mayor,igual o menor y asi imprimir de acuerdo a lo que sea.
+
+```
+print("Vamos a ver si la suma de los primeros numeros que pongas serán mayor al tercero >:)")
+
+a=float(input("Ingresa tu primer número: "))
+b=float(input("Ingresa tu segundo número: "))
+c=float(input("Ingresa tu tercer número: "))
+
+if (a+b)>c:
+    print("La suma de los primeros números dos son mayores al tercero")
+elif (a+b)==c:
+    print("La suma de los primeros dos número es igual al tecero")
+else:
+    print("La suma de los primeros dos números no es igual al tercero")
+
+```
+### Punto 6: ¿Vocal? ¿Consonante? Yo que se, quiero ver la champions
+
+Se le pide al usuario que ingrese una letra a gusto, y se establece un condicional que determine si es vocal o no
+
+```
+
+print("Vamos a ver si el caracter que ingreses sera una vocal o consonante")
+x= input("Coloca la letra que desees: ")
+
+def vocal_o_consonante(x):
+    if x in ("a", "A", "e","E","i","I","o","O","u","U","á","é","í","ó","ú"):
+        print("Ingresaste una vocal")
+    else:
+        print("Ingresaste una consonante ")
+
+print (vocal_o_consonante(x))
+```
+
+
 ### Punto 7: 3 Horas de sufrimiento
 
 #### Escriba un programa que pida 5 números reales y calcule las siguientes operaciones:
@@ -1109,7 +1200,7 @@ match pais:
 
 ```
 
-### Punto 10: ACABO EL SUFRIMIENTO 
+### Punto 10: ACABO EL SUFRIMIENTO.
 
  Escriba un programa que dada una distancia calcule:
 
@@ -1163,6 +1254,9 @@ print("El tiempo que le tomara a Usain Bolt recorrer la distancia sera de " +str
 ```
 
 Si llegaste hasta aqui, o eres el profe, tienes mucho tiempo libre, o no tienes ni idea de como hacer un punto. SEA CUAL SEA DEJA TU ESTRELLITA
+
+### NOS VEMOS EN LA PARTE 2.
+### Atentamente: anonimus_con_H
 
 
 
