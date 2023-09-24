@@ -6,6 +6,8 @@ Miguel Angel Acevedo Olaya, Alias: Mickey
 
 ## LOGO:
 
+![LOGO](LOGO.png)
+
 ## VIDEO DE YOUTUBE
 
 https://www.youtube.com/watch?v=yaujGEe53JQ Deja tu like =)
