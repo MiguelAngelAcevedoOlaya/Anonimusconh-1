@@ -43,6 +43,24 @@ if a!=b and a!=b and b!=c:
 else:
     print("Ingrese otros 3 números porque F, no se puede saber cual es mayor a cual xd")
 ```
+#### Diama de flujo:
+
+```mermaid
+flowchart TD
+    A[Determinar que número es mayor] -->B(Ingresar 3 números naturales)
+    B --> C{Todos los números son distintos?}
+    C -->|NO| D(Ingrese otros 3 números porque F, no se puede saber cual es mayor a cual xd)
+    D --> C
+    C -->|SI| F[Continuar]
+    F --> G{A > B?}
+    G -->|SI| H{A > C?}
+    H -->|SI| I(A es el mayor de los 3)
+    H -->|NO| J(C es el mayor de los 3)
+    G -->|NO| K{B > C?}
+    K -->|SI| L(B es el mayor de los 3)
+    K -->|NO| M(C es el mayor de los 3)
+```
+
 ### Punto 3: De momento esta muy facil =)
 
 Se le pide al usuario que ingrese un número entero y si su residuo al dividirlo entre 2 es 0, es par, y si da 1 es un número impar.
@@ -56,6 +74,17 @@ if n % 2 ==0:
 else:
     print("Suave, tu número es impar xd")
 
+```
+#### Diagrama de flujo:
+
+```mermaid
+flowchart TD
+    A[Determinar si es par o no] -->B(Ingresar un número naturales)
+    B --> C{residuo de numero n entre 2 es 0?}
+    C -->|NO| D{Es 1?}
+    D -->|SI| E(Es impar)
+    D -->|NO| F(Hay algo raro con el codigo)
+    C -->|SI| G(El número es par)
 ```
 
 ### Punto 4: En proceso, aun no hay sufrimiento
